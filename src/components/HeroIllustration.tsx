@@ -8,9 +8,6 @@ export function HeroIllustration() {
       <div className="absolute left-1/3 -bottom-28 h-96 w-96 rounded-full bg-lobster/15 blur-2xl" />
 
       {/* sticker emojis */}
-      <div className="absolute left-10 top-10 grid h-16 w-16 place-items-center rounded-full border-2 border-white/15 bg-bg/30 shadow-sticker text-3xl">
-        🦞
-      </div>
       <div className="absolute right-16 top-16 grid h-16 w-16 place-items-center rounded-full border-2 border-white/15 bg-bg/30 shadow-sticker text-3xl">
         🧬
       </div>
