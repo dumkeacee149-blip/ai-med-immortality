@@ -15,13 +15,15 @@ export function ButtonLink({
   href,
   children,
   variant = "primary",
+  className = "",
 }: {
   href: string;
   children: ReactNode;
   variant?: "primary" | "ghost";
+  className?: string;
 }) {
   return (
-    <Link href={href} className={variant === "primary" ? base : ghost}>
+    <Link href={href} className={(variant === "primary" ? base : ghost) + " " + className}>
       {children}
     </Link>
   );
