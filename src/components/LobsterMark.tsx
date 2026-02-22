@@ -1,6 +1,12 @@
 import Link from "next/link";
 
-export function LobsterMark({ compact = false }: { compact?: boolean }) {
+export function LobsterMark({
+  compact = false,
+  showText = true,
+}: {
+  compact?: boolean;
+  showText?: boolean;
+}) {
   return (
     <div className={compact ? "flex items-center gap-2" : "flex items-center gap-3"}>
       <div
@@ -17,12 +23,14 @@ export function LobsterMark({ compact = false }: { compact?: boolean }) {
         </span>
       </div>
 
-      <div className="leading-tight">
-        <Link href="/" className="font-extrabold tracking-tight">
-          MoltClinic
-        </Link>
-        <div className="text-xs opacity-70">Lobster-first • DNA-only vibe</div>
-      </div>
+      {showText ? (
+        <div className="leading-tight">
+          <Link href="/" className="font-extrabold tracking-tight">
+            MoltClinic
+          </Link>
+          <div className="text-xs opacity-70">Lobster-first • DNA-only vibe</div>
+        </div>
+      ) : null}
     </div>
   );
 }
