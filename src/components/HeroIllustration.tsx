@@ -36,7 +36,7 @@ export function HeroIllustration() {
           <path d="M910 282h70" stroke="rgba(255,255,255,0.42)" strokeWidth="10" strokeLinecap="round" />
         </g>
 
-        {/* lobster doctor on bench */}
+        {/* lobster on bench (DNA-only: no cross, no stethoscope) */}
         <g transform="translate(520,160)" filter="url(#shadow)">
           {/* claws */}
           <path d="M-220 170c-28-68 18-140 98-152 66-10 120 44 108 110-12 66-92 96-206 42z" fill="#FF2D55" stroke="rgba(255,255,255,0.22)" strokeWidth="8" />
@@ -50,10 +50,9 @@ export function HeroIllustration() {
           <path d="M-110 120h220" stroke="rgba(0,0,0,0.15)" strokeWidth="12" strokeLinecap="round" />
           <path d="M-110 162h220" stroke="rgba(0,0,0,0.15)" strokeWidth="12" strokeLinecap="round" />
 
-          {/* headband + cross */}
+          {/* lab headband (no medical cross) */}
           <rect x="-120" y="-30" width="240" height="62" rx="30" fill="rgba(11,16,34,0.75)" stroke="rgba(255,255,255,0.20)" strokeWidth="8" />
-          <rect x="-20" y="-18" width="40" height="56" rx="8" fill="#22C55E" />
-          <rect x="-50" y="0" width="100" height="24" rx="8" fill="#22C55E" />
+          <circle cx="0" cy="1" r="14" fill="rgba(56,189,248,0.75)" />
 
           {/* face */}
           <circle cx="-44" cy="30" r="12" fill="rgba(0,0,0,0.55)" />
@@ -66,9 +65,11 @@ export function HeroIllustration() {
           <circle cx="-162" cy="-48" r="10" fill="#38BDF8" />
           <circle cx="162" cy="-48" r="10" fill="#38BDF8" />
 
-          {/* stethoscope */}
-          <path d="M-74 170c0 54 34 98 74 98s74-44 74-98" stroke="rgba(56,189,248,0.95)" strokeWidth="12" fill="none" strokeLinecap="round" />
-          <circle cx="0" cy="272" r="18" fill="rgba(56,189,248,0.95)" />
+          {/* DNA badge */}
+          <path d="M-18 206c-18-18-18-38 0-56" stroke="rgba(255,255,255,0.60)" strokeWidth="10" fill="none" strokeLinecap="round" />
+          <path d="M18 206c18-18 18-38 0-56" stroke="rgba(255,255,255,0.60)" strokeWidth="10" fill="none" strokeLinecap="round" />
+          <path d="M-18 180h36" stroke="rgba(255,255,255,0.45)" strokeWidth="10" strokeLinecap="round" />
+          <path d="M-18 198h36" stroke="rgba(255,255,255,0.45)" strokeWidth="10" strokeLinecap="round" />
         </g>
 
         {/* sparkle icons */}
