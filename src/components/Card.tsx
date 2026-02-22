@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export function Card(props: { title?: string; children: ReactNode; footer?: ReactNode }) {
+export function Card(props: { title?: ReactNode; children: ReactNode; footer?: ReactNode }) {
   return (
     <section className="relative grain sticker overflow-hidden rounded-blob border border-line bg-card/80 p-6">
       {/* Lobster corner badge (kept INSIDE to avoid overlap) */}
