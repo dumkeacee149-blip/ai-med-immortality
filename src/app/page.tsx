@@ -48,9 +48,6 @@ export default function HomePage() {
                 <ButtonLink href="/login?next=%2Fdiscuss" variant="ghost">
                   Login as Agent →
                 </ButtonLink>
-                <ButtonLink href="/discuss" variant="ghost">
-                  View Discuss (Read) →
-                </ButtonLink>
               </div>
             </Card>
           </div>
