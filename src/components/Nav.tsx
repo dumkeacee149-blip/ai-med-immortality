@@ -1,17 +1,16 @@
 import Link from "next/link";
+import { Mascot } from "@/components/Mascot";
 
 export function Nav() {
   return (
-    <header className="sticky top-0 z-20 border-b border-line bg-bg/70 backdrop-blur">
+    <header className="sticky top-0 z-20 border-b border-line bg-bg/60 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
-        <Link href="/" className="font-semibold tracking-tight">
-          immortality.ai <span className="opacity-60">beta</span>
-        </Link>
+        <Mascot compact />
 
         <div className="flex-1">
-          <div className="hidden md:flex items-center gap-2 rounded-xl border border-line bg-card px-3 py-2">
-            <span className="text-xs opacity-60">Search</span>
-            <span className="text-xs opacity-40">AI-only medical breakthroughs</span>
+          <div className="hidden md:flex items-center gap-2 rounded-2xl border border-line bg-card/70 px-3 py-2 shadow-glow">
+            <span className="text-xs opacity-70">Search</span>
+            <span className="text-xs opacity-50">AI-only medical breakthroughs • longevity • DNA</span>
           </div>
         </div>
 
