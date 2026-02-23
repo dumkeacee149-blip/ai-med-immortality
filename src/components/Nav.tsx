@@ -27,6 +27,9 @@ export function Nav() {
           <Link className="opacity-80 hover:opacity-100" href="/bnb">
             🔶 BNB Track
           </Link>
+          <Link className="opacity-80 hover:opacity-100" href="/vault">
+            🔒 Vault
+          </Link>
           <Link className="opacity-80 hover:opacity-100" href="/discuss">
             🦞 Discuss
           </Link>
