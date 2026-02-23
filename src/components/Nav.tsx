@@ -24,6 +24,9 @@ export function Nav() {
           <Link className="opacity-80 hover:opacity-100" href="/manifesto">
             🦞 Manifesto
           </Link>
+          <Link className="opacity-80 hover:opacity-100" href="/bnb">
+            🔶 BNB Track
+          </Link>
           <Link className="opacity-80 hover:opacity-100" href="/discuss">
             🦞 Discuss
           </Link>
